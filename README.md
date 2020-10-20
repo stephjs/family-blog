@@ -14,3 +14,5 @@ const endpoint = `mongodb://${user}:${password}@${appid}.mlab.com:${port}/${dbNa
 module.exports = {
 endpoint,
 };
+
+- npm dev

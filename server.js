@@ -6,7 +6,9 @@ const cors = require('cors');
 const { endpoint } = require('./secret');
 
 const app = express();
-const port = 5000;
+
+// eslint-disable-next-line no-undef
+const port = process.env.PORT || 5000;
 
 mongoose.connect(endpoint, {
   useNewUrlParser: true,
