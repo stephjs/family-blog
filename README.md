@@ -19,7 +19,7 @@ endpoint,
 
 #### Note to Self
 
-Hey future Steph! You used heroku to deploy this. When you need to push an update to Heroku remember to un-gitignore the secret.js file and then re-ignore it when pushing to github.
+Hey future Steph! You used heroku to deploy this. When you need to push an update to Heroku remember to un-gitignore the secret.js file and then [re-ignore it](https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore) when pushing to github.
 
 - git add .
 - git commit -am "heroku things"
